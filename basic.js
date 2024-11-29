@@ -26,27 +26,28 @@ let indefinido;
 let object = ("coche");
 let array = ['nissan','toyota', 'opel'];
 
-console.log(string, number, boolean, null, undefined, object, array);
+//console.log(string, number, boolean, null, undefined, object, array);
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
 
 //Escribe tu código aquí
 
-
+const postres = ['helado', 'tarta', 'pastel'];
+console.log(postres);
 
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
 //Escribe tu código aquí
 
-
-
+const coder = {nombre:"", edad:''};
+console.log(coder);
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado en el ejercicio 2.
 
 //Escribe tu código aquí
 
-
+console.log(string, number, boolean, null, undefined, object, array);
 
 
 //OPERADORES ARITMÉTICOS
@@ -54,13 +55,20 @@ console.log(string, number, boolean, null, undefined, object, array);
 
 //Escribe tu código aquí
 
-
+let num1A = 5;
+let num1B = 21;
+const resultC1 = (num1A+num1B);
+console.log(resultC1, "este es el resultado de la suma");
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
+let num2A = 51;
+let num2B = 23;
+const resultC2 = (num2A-num2B);
+console.log(resultC2, "este es el resultado de la resta");
 
 
 
