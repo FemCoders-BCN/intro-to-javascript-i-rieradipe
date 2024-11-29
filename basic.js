@@ -2,7 +2,7 @@
 
 //En el archivo index.html que tienes abierto en el navegador (preferiblemente chrome o firefox) vamos a trabajar con la consola, abre tu inspector y en la pestaña de consola, mira si puedes ver el mensaje escrito abajo.
 
-console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
+//console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Si has encontrado el mensaje puedes continuar con los ejercicios
 
@@ -10,7 +10,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+//console.log('Bienvenida al bootcamp de FemCoders de Factoría F5 ')
 
 
 //VARIABLES Y TIPOS DE DATOS
@@ -18,8 +18,15 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+let string = "texto";
+let number = 20;
+let boolean = true;
+let nulo = null;
+let indefinido;
+let object = ("coche");
+let array = ['nissan','toyota', 'opel'];
 
-
+console.log(string, number, boolean, null, undefined, object, array);
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
 
