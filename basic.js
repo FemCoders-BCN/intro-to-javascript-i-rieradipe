@@ -97,14 +97,17 @@ console.log("este es el resultado de la división: ", resultC4);
 
 //Escribe tu código aquí
 
-
-
+let numE10A = 1; 
+let numE10B = 2;
+let compE10= (numE10A === numE10B);
+console.log("Una comparacion que no es estrictamente igual: " ,compE10); 
 
 // Ejercicio 11: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
 //Escribe tu código aquí
 
-
+let compE11 = (numE10A != numE10B);
+console.log("Una comparacion que no es igual, por tanto dará true: ", compE11);
 
 
 //Ejercicio 12: completa el ejercicio
@@ -112,7 +115,8 @@ console.log("este es el resultado de la división: ", resultC4);
 let num1 = 15
 let num2 = 20
 
-let comparision = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
+let comparision = (num1 != num2);
+//Realiza la operación de comparación que consideres para que el resultado en consola sea true
 console.log(comparision)
 
 //Ejercicio 13: completa el ejercicio
@@ -120,13 +124,14 @@ console.log(comparision)
 let num3 = 1
 let num3AsString = "1"
 
-let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
+let result = (num3 === num3AsString);
+//Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result) 
 
 
 //Ejercicio 14: completa el ejercicio
-
-let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
+let result2 = (num3 == num3AsString );
+//Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
 console.log(result2)
 
 
@@ -136,7 +141,10 @@ console.log(result2)
 
 //Escribe tu código aquí
 
-
+let nameA = "Alba";
+let firstName = "Riera";
+let fullName = (firstName+" "+ nameA);
+console.log(fullName);
 
 
 
