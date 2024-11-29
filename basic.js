@@ -58,7 +58,7 @@ console.log(string, number, boolean, null, undefined, object, array);
 let num1A = 5;
 let num1B = 21;
 const resultC1 = (num1A+num1B);
-console.log(resultC1, "este es el resultado de la suma");
+console.log("este es el resultado de la suma: ", resultC1);
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
@@ -68,7 +68,7 @@ console.log(resultC1, "este es el resultado de la suma");
 let num2A = 51;
 let num2B = 23;
 const resultC2 = (num2A-num2B);
-console.log(resultC2, "este es el resultado de la resta");
+console.log("este es el resultado de la resta: ", resultC2);
 
 
 
@@ -76,13 +76,19 @@ console.log(resultC2, "este es el resultado de la resta");
 
 //Escribe tu código aquí
 
-
-
+let num3A = 3;
+let num3B = 6;
+const resultC3 = (num3A * num3B);
+console.log("esto es el resultado de la multiplicación: ", resultC3);
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
+let num4A = 65;
+let num4B = 5;
+const resultC4 = (num4A / num4B);
+console.log("este es el resultado de la división: ", resultC4);
 
 
 
