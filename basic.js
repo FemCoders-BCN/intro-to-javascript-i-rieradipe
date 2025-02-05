@@ -2,7 +2,7 @@
 
 //En el archivo index.html que tienes abierto en el navegador (preferiblemente chrome o firefox) vamos a trabajar con la consola, abre tu inspector y en la pestaña de consola, mira si puedes ver el mensaje escrito abajo.
 
-//console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
+console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Si has encontrado el mensaje puedes continuar con los ejercicios
 
@@ -10,7 +10,8 @@
 
 //Escribe tu código aquí
 
-//console.log('Bienvenida al bootcamp de FemCoders de Factoría F5 ')
+
+console.log('Bienvenida al bootcamp de FemCoders de Factoría F5 ')
 
 
 //VARIABLES Y TIPOS DE DATOS
@@ -22,11 +23,11 @@ let string = "texto";
 let number = 20;
 let boolean = true;
 let nulo = null;
-let indefinido;
-let object = ("coche");
+let miVariable = undefined;
+let object = {};
 let array = ['nissan','toyota', 'opel'];
 
-//console.log(string, number, boolean, null, undefined, object, array);
+console.log(string, number, boolean, null, undefined, object, array);
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
 
@@ -47,8 +48,13 @@ console.log(coder);
 
 //Escribe tu código aquí
 
-console.log(string, number, boolean, null, undefined, object, array);
-
+console.log(`Este es tipo: ${typeof string}`);
+console.log(`Este es tipo: ${typeof number}`);
+console.log(`Este es tipo: ${typeof boolean}`);
+console.log(`Este es tipo: ${typeof nulo}`);
+console.log(`Este es tipo: ${typeof miVariable}`);
+console.log(`Este es tipo: ${typeof object}`);
+console.log(`Este es tipo: ${typeof array}`);
 
 //OPERADORES ARITMÉTICOS
 //Ejercicio 6: Crea una varible que sume 2 números e imprime el resultado en consola.
@@ -166,7 +172,7 @@ console.log(res3)
 let res4 = a == 6 === b == 0 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res4)
 
-let res5 = a == 0 == b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+let res5 = a !== 0 && b == 3 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res5)
 
 let res6 = a == 6 && b == 3 //true
